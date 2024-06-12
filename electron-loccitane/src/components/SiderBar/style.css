@@ -1,0 +1,75 @@
+.sidebar{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.foto-container{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    align-items: center;
+    gap: 0px 20px;
+    padding: 10px 0px 20px;
+    border-bottom: #ffffff 5px solid;
+    cursor: pointer;
+}
+
+
+
+.foto-container p{
+    
+}
+
+.Foto{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-left: 12px;
+}
+
+
+.svgImg{
+    width: 40px;
+    margin-right: 22px;
+    margin-left: 6px;
+}
+
+
+.divMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.divBotaoMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.botaoMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+    transition: 300ms;
+}
+
+.containerBotaoHover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.containerBotaoHover:hover .botaoMenu{
+    background-color: #ffffff;
+    color: #363636;
+}
+.containerBotaoHover:hover .svgImg{
+    filter: invert(75%);
+}

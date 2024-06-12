@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'KantumruyPro';
+  src: url('./assets/font/LinksHeader/static/KantumruyPro-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterTight';
+  src: url('./assets/font/Numero/static/InterTight-ExtraBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('./assets/font/Sidebar/static/Archivo-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BIZUDPGothic';
+  src: url('./assets/font/TextoDestaque/BIZUDPGothic-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+
+  /*Fontes*/
+  font-family: 'BIZUDPGothic','KantumruyPro', 'InterTight', 'Archivo' ;
+  --font-links-header: 'KantumruyPro';
+  --font-numero: 'InterTight';
+  --font-side-bar: 'Archivo';
+
+  /*tamanho*/
+
+
+  /*thema-ligth*/
+
+
+  
+}
+
+
+

@@ -1,0 +1,131 @@
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100dvh;
+    
+}
+.container1{
+    width: 15px;
+    transition: 300ms
+     ease-in;
+}
+.container2{
+    width: 94.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 300ms ease-in;
+}
+
+.container1.open{
+    width: 235px;
+}
+.container1.close{
+    width: 70px;
+}
+.container2.open{
+    width: 80%;
+}
+.container2close{
+    width: 94.5%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;    
+}
+
+.tela{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.setorEspaco{
+    margin-bottom: 100px;
+}
+
+/*Espaçamento das prateleiras (Intervalo dos corredores)*/
+.corredor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    height: 50px;
+}
+
+.prateleira{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* filter: drop-shadow(5px 0px 2px rgba(0, 0, 0, 0.301)) hue-rotate(90deg); */
+}
+
+.baseVertical{
+    width: 12px;
+    z-index: 0;
+    display:flex;
+    flex-direction: column-reverse;
+    filter: saturate(400) hue-rotate(90deg);
+}
+
+
+
+.baseHorizontal{
+    width: 65px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.prateleiraBase{
+    position: relative;
+    
+}
+
+.prateleira-b{
+    width: 70px;
+}
+
+.palete{
+    width: 40px;
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
+    
+}
+
+.prateleira:first-child{
+    z-index: -1;
+}
+
+.prateleira:last-child{
+    z-index: 1;
+}
+
+.ultima-base{
+    position: absolute;
+    left: 69px;
+}
+
+.primeira-base{
+    height: 100px;
+    position: absolute;
+    top: 84px;
+}
+
+.segunda-base{
+    height: 100px;
+    position: absolute;
+    top: 0px;
+}

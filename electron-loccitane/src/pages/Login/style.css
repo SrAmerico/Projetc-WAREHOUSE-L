@@ -1,0 +1,47 @@
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100dvh;
+    
+}
+.container1{
+    width: 15px;
+    transition: 300ms
+     ease-in;
+}
+.container2{
+    width: 94.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 300ms ease-in;
+}
+
+.container1.open{
+    width: 235px;
+}
+.container1.close{
+    width: 70px;
+}
+.container2.open{
+    width: 80%;
+}
+.container2close{
+    width: 94.5%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+    
+}
+
+.page2{
+    display: flex;
+    width: 1090px;
+    flex-direction: column;
+}

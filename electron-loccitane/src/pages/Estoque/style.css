@@ -1,0 +1,154 @@
+input[type="number"]:focus {
+    outline: none; 
+    box-shadow: none; 
+    
+}
+
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100dvh;
+    
+}
+.container1{
+    width: 15px;
+    transition: 300ms
+     ease-in;
+}
+.container2{
+    width: 94.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 300ms ease-in;
+}
+
+.container1.open{
+    width: 235px;
+}
+.container1.close{
+    width: 70px;
+}
+.container2.open{
+    width: 80%;
+}
+.container2close{
+    width: 94.5%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+    
+}
+
+.footer2{
+    display: flex;
+    gap: 20px;
+    padding: 5px 10px;
+}
+
+.pesquisa{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.486),inset -2px -2px 2px rgba(255, 255, 255, 0.466);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 25px 6px 10px;
+    
+}
+
+.pesquisa:focus {
+    outline: none;
+}
+
+.caixaOpcao{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 25px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
+}
+
+.filtroOpcao{
+    width: 200px;
+    
+}
+
+.orgFiltro{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
+    width: 160px;
+    background-color: #d5d5d5;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 45px;
+    left: 0;
+    padding: 0px 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 300ms;
+    height: 0px;
+}
+
+.caixaOpcao:nth-child(1):hover .orgFiltro{
+    padding: 10px 10px;
+    height: 250px;
+}
+
+
+.caixaOpcao:last-child{
+    box-shadow: none;
+}
+
+.ordem{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
+    width: 111px;
+    background-color: #d5d5d5;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 45px;
+    left: 0;
+    padding: 0px 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 300ms;
+    height: 0px;
+}
+
+.ordem label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixaOpcao:nth-child(2):hover .ordem{
+    padding: 10px 10px;
+    height: 100px;
+}
+
+.caixaOpcao img{
+    width: 20px;
+    position: relative;
+    margin-left: -20px;
+    
+}
+
+.pageCard{
+    padding: 40px 20px;
+    background-color: #222;
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.466);
+}
+

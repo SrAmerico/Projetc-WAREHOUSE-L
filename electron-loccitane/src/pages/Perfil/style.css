@@ -1,0 +1,181 @@
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100dvh;
+    
+}
+.container1{
+    width: 15px;
+    transition: 300ms
+     ease-in;
+}
+.container2{
+    width: 94.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 300ms ease-in;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.container1.open{
+    width: 235px;
+}
+.container1.close{
+    width: 70px;
+}
+.container2.open{
+    width: 80%;
+}
+.container2close{
+    width: 94.5%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+    
+}
+
+.perfilHeader{
+    height: 250px;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: inset 0px -80px 150px black;
+    background: url('../../assets/img/background.jpg') center 0px;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.perfilHeader img{
+    height: 100%;
+    border-radius: 100px;
+    filter:brightness(110%) contrast(110%);
+}
+
+.perfilHeader span{
+    font-size: 40px;
+}
+
+.secaoPerfil{
+    padding: 25px;
+    margin: 10px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerPerfil1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.containerPerfil1 span h1{
+    font-weight: 800;
+    border-left: rgb(50, 95, 243) 5px solid;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.containerPerfil2{
+    color: #222;
+    background-color: #d5d5d5;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.26);
+    width: 500px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.containerPerfil1 span{
+    margin-top: 10px;
+    background-color: #d5d5d5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeCargo{
+    display: flex;
+    flex-direction: column;
+}
+.nomeApresentacao{
+    font-size: 50px;
+    font-weight: 800;
+}
+.cargoApresentacao{
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+.containerPerfil1 span div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editar:active{
+    cursor: pointer;
+}
+
+.naoEditavel{
+    padding: 10px 0px 0px;
+}
+
+.editavel{
+    margin-top: 10px;
+    padding: 2px;
+    border: none;
+    color: #222;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.descricao{
+    font-size: 28px;
+    border-bottom: #222 6px solid;
+}
+
+.botaoEditarPerfil{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.botaoEditarPerfil button:nth-child(1){
+    width: 65%;
+    margin: 5px;
+    padding: 10px 0px;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #222;
+}
+.botaoEditarPerfil button:nth-child(2){
+    width: 35%;
+    margin: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+.botaoEditarPerfil button{
+    transition: 200ms;
+}
+
+.botaoEditarPerfil button:active{
+    background-color: rgba(0, 0, 0, 0.082);
+    color: #FFF;
+    cursor: pointer;
+}

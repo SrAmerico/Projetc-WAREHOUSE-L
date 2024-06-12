@@ -1,0 +1,7 @@
+.direitos{
+    display: flex;
+    justify-content: end;
+    color: rgb(131, 131, 131);
+    background-color: rgb(170, 170, 170);
+    font-size: small;
+}

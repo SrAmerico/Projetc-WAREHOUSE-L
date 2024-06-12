@@ -1,0 +1,55 @@
+.headerPalete{
+    height: 150px;
+    background-color: #222;
+    padding: 40px 0px;
+}
+
+.headerPalete div{
+    display: flex;
+    padding: 0px 0px 0px 70px;
+    gap: 15px;
+    align-items: center;
+}
+
+.headerPalete div span{
+    position: relative;
+    top: 10;
+}
+.headerTextPalete{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.footerPalete{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoPaleteFooter{
+    width: 800px;
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.infoPaleteBox{
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.infoPaleteBox span{
+    padding: 10px;
+    background-color: #d5d5d5;
+}
+
+.infoDescricao{
+    background-color: #d5d5d5;
+    width: 400px;
+    padding: 10px;
+    word-break: break-all;
+}

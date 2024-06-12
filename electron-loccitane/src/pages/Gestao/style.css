@@ -1,0 +1,88 @@
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100dvh;
+    
+}
+.container1{
+    width: 15px;
+    transition: 300ms
+     ease-in;
+}
+.container2{
+    width: 94.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 300ms ease-in;
+}
+
+.container1.open{
+    width: 235px;
+}
+.container1.close{
+    width: 70px;
+}
+.container2.open{
+    width: 80%;
+}
+.container2close{
+    width: 94.5%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+    
+}
+
+.footer2{
+    display: flex;
+    gap: 20px;
+    padding: 5px 10px;
+}
+
+.pesquisa{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.486),inset -2px -2px 2px rgba(255, 255, 255, 0.466);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 25px 6px 10px;
+}
+
+.pesquisa:focus {
+    outline: none;
+}
+
+.caixaOpcao{
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 25px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
+}
+
+.caixaOpcao img{
+    width: 20px;
+    position: relative;
+    margin-left: -20px;
+    
+}
+
+.pageCard{
+    padding: 40px 20px;
+    background-color: #222222;
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.466);
+}
+
+
