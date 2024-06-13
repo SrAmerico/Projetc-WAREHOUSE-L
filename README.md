@@ -18,5 +18,7 @@ Este projeto é essencial para otimizar a gestão do seu armazém, proporcionand
 
 ## Telas
 - **Home:** 
+![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/c574c874-0301-4600-9be8-28c6e45b41d4)
+
 - **Métricas:** 
 - **Mapa:** 
