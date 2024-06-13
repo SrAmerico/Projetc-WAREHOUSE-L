@@ -19,7 +19,8 @@ Este projeto é essencial para otimizar a gestão do seu armazém, proporcionand
 ## Telas
 
 1. **Home (Dashboards):** Nesta tela, você terá um resumo das movimentações e do status de ocupação do armazém. É uma visão geral que permite acompanhar o fluxo de atividades e a disponibilidade de espaço.
-![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/259e787b-b60d-4b97-9cf5-f4856729f3b5)
+![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/7ec260cc-06a3-4361-98de-7a63cc9b2399)
+
 
 2. **Métricas de Atividades:** Na seção "Métricas", você encontrará informações sobre as atividades realizadas até a data da análise. Isso inclui dados relacionados à expedição, armazenamento e itens urgentes que precisam ser enviados. Essas métricas ajudam a avaliar o desempenho do armazém.
 ![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/aaeac113-7e9c-486a-9250-9aff0c8c02c3)
