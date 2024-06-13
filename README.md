@@ -17,4 +17,6 @@ Este projeto é uma ferramenta abrangente para o controle e gerenciamento do arm
 Este projeto é essencial para otimizar a gestão do seu armazém, proporcionando eficiência e controle total. Abaixo você terá acesso ao layout
 
 ## Telas
-
+- **Home:** 
+- **Métricas:** 
+- **Mapa:** 
