@@ -17,11 +17,12 @@ Este projeto é uma ferramenta abrangente para o controle e gerenciamento do arm
 Este projeto é essencial para otimizar a gestão do seu armazém, proporcionando eficiência e controle total. Abaixo você terá acesso ao layout
 
 ## Telas
-- **Home:** 
+
+1. **Home (Dashboards):** Nesta tela, você terá um resumo das movimentações e do status de ocupação do armazém. É uma visão geral que permite acompanhar o fluxo de atividades e a disponibilidade de espaço.
 ![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/259e787b-b60d-4b97-9cf5-f4856729f3b5)
 
-- **Métricas:** 
+2. **Métricas de Atividades:** Na seção "Métricas", você encontrará informações sobre as atividades realizadas até a data da análise. Isso inclui dados relacionados à expedição, armazenamento e itens urgentes que precisam ser enviados. Essas métricas ajudam a avaliar o desempenho do armazém.
 ![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/aaeac113-7e9c-486a-9250-9aff0c8c02c3)
 
-- **Mapa:** 
+3. **Mapa (Armazém Fábrica):** O mapa do armazém é uma ferramenta intuitiva que facilita a localização de materiais e itens dentro do nosso armazém em Itupeva. Com esse layout visual fiel à nossa fábrica, você pode consultar a disposição dos materiais sem precisar sair da sua sala. É uma maneira eficiente de otimizar o controle e a gestão do estoque.
 ![image](https://github.com/SrAmerico/Projeto-L-occitane-Group-F-brica-/assets/134458811/bca91f15-a42c-46e9-8049-4e2c0506647f)

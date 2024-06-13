@@ -49,15 +49,16 @@
 }
 
 .setorEspaco{
-    margin-bottom: 100px;
+    margin-bottom: 145px;
 }
 
 /*Espaçamento das prateleiras (Intervalo dos corredores)*/
-.corredor{
+.corredor{ /*Eu renomeei como rua*/
     display: flex;
     flex-direction: row;
     margin-top: 150px;
     height: 50px;
+    width: 10000px;
 }
 
 .prateleira{
