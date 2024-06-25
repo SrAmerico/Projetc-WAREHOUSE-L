@@ -1,4 +1,4 @@
-# Gerenciamento de Armazém da L'Occitane Group
+# Gerenciamento de Armazém da L
 
 Este projeto é uma ferramenta abrangente para o controle e gerenciamento do armazém da fábrica da L'Occitane Group. Com ele, você terá total visibilidade sobre a ocupação do armazém, permitindo adicionar, excluir e atualizar informações para mantê-lo sempre atualizado. Algumas características principais incluem:
 
